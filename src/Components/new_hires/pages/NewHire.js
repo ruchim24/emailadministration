@@ -12,7 +12,14 @@ const userId = useParams().userId;
 
 const clickHandler = () => {
   history.push(`/${userId}/updateUser`);
-  
+
+}
+
+const deleteHandler = async() => {
+  const response = await fetch(`/${userId}/deleteUser`,{
+    method:'DELETE'
+  });
+  history.push('/details');
 }
 
 useEffect(() => {
@@ -51,7 +58,7 @@ useEffect(() => {
         <hr />
         <div className="button_style">
         <button onClick={clickHandler}>Edit</button>
-        <button>Delete</button>
+        <button onClick={deleteHandler}>Delete</button>
         </div>
         </div>
     </Cards>
