@@ -19,17 +19,17 @@ export const UserContext=createContext()
 const Routing=()=>{
   const history=useHistory();
   const {state,dispatch}=useContext(UserContext);
-  // useEffect(()=>{
+  useEffect(()=>{
     
-  //   const user=JSON.parse(localStorage.getItem("user"))
-  //   if(user){
-  //     dispatch({type:"USER",payload:user})
-  //     history.push('/');
-  //   }
-  //   else{
-  //     history.push('/login');
-  //   }
-  // },[])
+    const user=JSON.parse(localStorage.getItem("user"))
+    if(user){
+      dispatch({type:"USER",payload:user})
+      history.push('/');
+    }
+    else{
+      history.push('/login');
+    }
+  },[])
   return(
         <Switch>
           <Route path="/Home" exact>
@@ -39,7 +39,7 @@ const Routing=()=>{
           <About/>
         </Route>
         <Route path="/details" exact>
-          <Details/>
+          <Users />
         </Route>
         <Route path="/" exact>
           <Login/>
@@ -50,9 +50,7 @@ const Routing=()=>{
         <Route path="/send" exact>
           <EmailSend/>
         </Route>
-        <Route path="/users" exact>
-        <Users />
-      </Route>
+      
       <Route path="/:userId/user" exact>
       <NewHire />
     </Route>

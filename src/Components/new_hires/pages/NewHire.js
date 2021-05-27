@@ -12,6 +12,7 @@ const userId = useParams().userId;
 
 const clickHandler = () => {
   history.push(`/${userId}/updateUser`);
+  
 }
 
 useEffect(() => {
