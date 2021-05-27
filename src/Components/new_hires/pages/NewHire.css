@@ -1,0 +1,66 @@
+
+li{
+  list-style-type: none;
+}
+
+.newhire-item {
+    margin: 1rem 0;
+  }
+  
+  .newhire-item__content {
+    padding: 0;
+  }
+  
+  .newhire-item__info {
+    padding: 1rem;
+    /* text-align: center; */
+    margin: 2rem;
+    float:right;
+  }
+
+  
+  
+  .newhire-item__info h2
+  {
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .layout{
+      margin: auto;
+      width: 50%;
+      border: 3px solid green;
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+    
+  }
+
+
+  .newhire-item__image {
+    width: 100%;
+    height: 100%;
+    margin-right: 1.5rem;
+  }
+  
+  .newhire-item__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+
+ /* .cards-design{
+   margin: 1 rem;
+   display: flex;
+   align-self: center;
+   height: 50%;
+   width: 50%;
+ } */
+
+ /* .newhires-item__actions{
+   display: flex;
+   flex-direction: column;
+ } */
+
+ .button_style button{
+   padding: 1 rem;
+ }

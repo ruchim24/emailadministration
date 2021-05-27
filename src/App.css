@@ -1,0 +1,236 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Pathway+Gothic+One&display=swap');
+
+/* Navigation bar */
+
+a{
+  color:rgb(92, 168, 98) !important;
+  font-weight:400;
+  text-decoration: none !important;
+  outline:none;
+}
+.brand-logo{
+  /* margin-left:250px; */
+  float:left;
+  background-color:white !important;
+  margin-top:-17px;
+}
+.nav-wrapper{
+  height:64px !important;
+}
+.logout{
+  background-color:red;
+  width:80px;
+  margin-right:10px;
+  text-align:center;
+}
+
+
+/* Login page  */
+.logo{
+  margin-left:99px;
+}
+.loginbtn{
+  margin:40px 150px;
+  background-color: rgb(92, 168, 98) !important;
+
+}
+.loginbtn:hover{
+  background-color: green !important;
+}
+.mycard{
+  margin-top:100px;
+}
+.login_card{
+  max-width:400px;
+  margin:10px auto;
+  padding:20px;
+}
+
+.login_card input[type=text]:focus {
+  border-bottom: 1px solid rgb(92, 168, 98) !important;
+  box-shadow: 0 1px 0 0 rgb(92, 168, 98) !important ;
+}
+.login_card input[type=password]:focus {
+  border-bottom: 1px solid rgb(92, 168, 98) !important;
+  box-shadow: 0 1px 0 0 rgb(92, 168, 98) !important ;
+}
+
+
+.login{
+  font-family: 'Pathway Gothic One', sans-serif;
+  margin: 20px 150px;
+  font-size:22px;
+}
+
+
+
+/* Email generate */
+
+.generate_email_heading{
+  font-family: 'Pathway Gothic One', sans-serif;
+  margin: 10px 110px;
+  font-size:20px;
+}
+
+.select_div{
+  width:300px;
+  height:30px;
+}
+.myemailcard{
+  margin-top:20px;
+}
+.email_card{
+    max-width:900px;
+    height:600px;
+    margin:10px auto;
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+  }
+.input_fields{
+    margin-left:80px;
+    margin-top:100px;
+  }
+.computer{
+  float:left;
+}
+.fields{
+  max-width:350px;
+}
+.email_card input[type=text]:focus {
+  border-bottom: 1px solid rgb(92, 168, 98) !important;
+  box-shadow: 0 1px 0 0 rgb(92, 168, 98) !important ;
+}
+.email_card input[type=password]:focus {
+  border-bottom: 1px solid rgb(92, 168, 98) !important;
+  box-shadow: 0 1px 0 0 rgb(92, 168, 98) !important ;
+}
+.email_card input[type=email]:focus {
+  border-bottom: 1px solid rgb(92, 168, 98) !important;
+  box-shadow: 0 1px 0 0 rgb(92, 168, 98) !important ;
+}
+
+#department:hover{
+  border-bottom: 1px solid rgb(92, 168, 98) !important;
+  box-shadow: 0 1px 0 0 rgb(92, 168, 98) !important ;
+}
+.generatebtn{
+  margin:40px 110px;
+  background-color: rgb(92, 168, 98) !important;
+
+}
+.generatebtn:hover{
+  background-color: green !important;
+}
+
+@media only screen and (max-width:500px){
+  .computer{
+    display:none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* register */
+
+.div_tabs{
+  width:500px;
+  height:500px;
+  background-color:white;
+  margin:30px auto;
+  margin-top:1px;
+}
+.div_tabs .nav-tabs .nav-item{
+  width:50%;
+  text-align: center;
+}
+.register_fields{
+  /* float:right; */
+  margin-left:100px;
+  margin-top:-60px;
+}
+.register_header{
+  font-family: 'Pathway Gothic One', sans-serif;
+  margin-top: 98px ;
+  margin-left:140px;
+  font-size:22px;
+}
+.registerbtn{
+  margin:10px 130px;
+  background-color: rgb(92, 168, 98) !important;
+
+}
+.registerbtn:hover{
+  background-color: green !important;
+}
+
+
+
+/* send email */
+
+
+.send_email{
+  margin:100px auto;
+  max-width:550px;
+  height:400px;
+}
+.send_container{
+  margin-top:20px;
+}
+.send_fields{
+  width:400px;
+  margin-left:80px;
+}
+.success {
+  color: #0ff40f;
+}
+
+.error {
+  color: #960303;
+}
+.sendbtn{
+  width:200px;
+  margin-left:180px;
+  margin-top:20px;
+  background-color: rgb(92, 168, 98) !important;
+}
+.info:hover{
+  border-bottom: 0px solid rgb(92, 168, 98) !important;
+  box-shadow: 0 1px 0 0 rgb(92, 168, 98) !important ;
+}
+.sendbtn:hover{
+  background-color: green !important;
+}
+.infoarea:hover{
+  border: 1px solid rgb(92, 168, 98) !important;
+  box-shadow: 0 1px 0 0 rgb(92, 168, 98) !important ;
+  outline:none;
+}
+.send_heading{
+  font-family: 'Pathway Gothic One', sans-serif;
+  margin-top: 30px ;
+  margin-left:229px;
+  font-size:20px;
+  /* color:blue; */
+}
+
+
+
+
+.uploadbtn{
+  width:100px;
+  height:40px !important;
+  padding:0px;
+}
+.uploadContent{
+  font-size:12px;
+  text-align: center;
+}
